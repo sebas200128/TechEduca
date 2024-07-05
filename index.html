@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechEduca - Educación Tecnológica para Todos</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script> <!-- Font Awesome para íconos -->
+</head>
+<body>
+    <header>
+        <div class="hero">
+            <img src="LOGO.jpg" alt="Logo de TechEduca" class="logo">
+            <h1>TechEduca</h1>
+            <p>Educación tecnológica para todos.</p>
+        </div>
+    </header>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#acerca-de">Acerca de</a>
+        <a href="#recursos">Recursos</a>
+        <a href="#comunidad">Comunidad</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <main>
+        <section id="inicio" class="container">
+            <h2>Bienvenidos a TechEduca</h2>
+            <p>Nuestra misión es proporcionar educación tecnológica accesible y recursos digitales innovadores.</p>
+        </section>
+        <section id="acerca-de" class="container">
+            <h2>Acerca de TechEduca</h2>
+            <p>TechEduca utiliza tecnologías avanzadas como Realidad Virtual, Realidad Aumentada y recorridos virtuales 360 grados para ofrecer una experiencia educativa única y envolvente.</p>
+        </section>
+        <section id="recursos" class="container">
+            <h2>Recursos Educativos</h2>
+            <ul>
+                <li><a href="#">Cursos en línea</a></li>
+                <li><a href="#">Tutoriales interactivos</a></li>
+                <li><a href="#">Biblioteca digital</a></li>
+            </ul>
+            <h3>Busca un Recurso</h3>
+            <form id="busqueda-recursos">
+                <label for="busqueda">Buscar:</label>
+                <input type="text" id="busqueda" name="busqueda" placeholder="Escribe una palabra clave...">
+                <button type="submit">Buscar</button>
+            </form>
+        </section>
+        <section id="comunidad" class="container">
+            <h2>Comunidad TechEduca</h2>
+            <p>Únete a nuestra comunidad y participa en eventos educativos y tecnológicos.</p>
+            <h3>Foro de la Comunidad</h3>
+            <form id="foro-comunidad">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="comentario">Comentario:</label>
+                <textarea id="comentario" name="comentario" rows="4" required></textarea>
+                <button type="submit">Publicar</button>
+            </form>
+            <h3>Eventos</h3>
+            <ul>
+                <li><strong>Webinar sobre habilidades digitales básicas</strong> - 10 de julio, 2024</li>
+                <li><strong>Taller de programación para principiantes</strong> - 20 de julio, 2024</li>
+                <li><strong>Charla sobre ciberseguridad</strong> - 30 de julio, 2024</li>
+            </ul>
+        </section>
+        <section id="contacto" class="container">
+            <h2>Contacto</h2>
+            <p>Para más información, sugerencias o colaboración, por favor rellena el siguiente formulario o síguenos en nuestras redes sociales.</p>
+            <form id="formulario-contacto">
+                <label for="nombre-contacto">Nombre:</label>
+                <input type="text" id="nombre-contacto" name="nombre" required>
+                <label for="email-contacto">Correo Electrónico:</label>
+                <input type="email" id="email-contacto" name="email" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>© 2024 TechEduca. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
